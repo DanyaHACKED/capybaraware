@@ -18,7 +18,7 @@ Frame.Active = true
 Frame.Draggable = true
 
 Frame_2.Parent = Frame
-Frame_2.BackgroundColor3 = Color3.fromRGB(242, 203, 96)
+Frame_2.BackgroundColor3 = Color3.fromRGB(11, 92, 202)
 Frame_2.BorderColor3 = Color3.fromRGB(11, 92, 202)
 Frame_2.Position = UDim2.new(-0.00480769249, 0, 0, 0)
 Frame_2.Size = UDim2.new(0, 416, 0, 2)
