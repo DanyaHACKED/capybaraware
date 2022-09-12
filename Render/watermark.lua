@@ -33,4 +33,4 @@ TextLabel.Font = Enum.Font.Arial
 TextLabel.Text = "falixware"
 TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
 TextLabel.TextSize = 14.000
-TextLabel.TextXAlignment = Left
+TextLabel.TextXAlignment = Enum.TextXAlignment.Left
