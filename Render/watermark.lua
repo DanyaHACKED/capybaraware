@@ -1,6 +1,6 @@
 -- Instances:
 
-local themarklol = Instance.new("themarklol")
+local themarklol = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
 local Frame_2 = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
