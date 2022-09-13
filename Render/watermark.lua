@@ -1,6 +1,6 @@
 -- Instances:
 
-local ScreenGui = Instance.new("ScreenGui")
+local themarklol = Instance.new("themarklol")
 local Frame = Instance.new("Frame")
 local Frame_2 = Instance.new("Frame")
 local TextLabel = Instance.new("TextLabel")
@@ -9,7 +9,7 @@ local TextLabel = Instance.new("TextLabel")
 
 ScreenGui.Parent = game.CoreGui
 
-Frame.Parent = ScreenGui
+Frame.Parent = themarklol
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Frame.BackgroundTransparency = 1.000
 Frame.Position = UDim2.new(0.249408036, 0, 0.256067961, 0)
