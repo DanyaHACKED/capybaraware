@@ -7,6 +7,7 @@ local TextLabel = Instance.new("TextLabel")
 
 --Properties:
 
+themarklol.Name = "themarklol"
 themarklol.Parent = game.CoreGui
 
 Frame.Parent = themarklol
