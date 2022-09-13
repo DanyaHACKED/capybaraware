@@ -7,7 +7,7 @@ local TextLabel = Instance.new("TextLabel")
 
 --Properties:
 
-ScreenGui.Parent = game.CoreGui
+themarklol.Parent = game.CoreGui
 
 Frame.Parent = themarklol
 Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
