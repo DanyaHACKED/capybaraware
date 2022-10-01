@@ -1,4 +1,4 @@
--- ryp#5687
+-- skidded from ryp#5687
 
 local ScreenGui = Instance.new("ScreenGui")
 local Frame = Instance.new("Frame")
