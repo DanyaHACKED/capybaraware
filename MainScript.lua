@@ -1,5 +1,14 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
 local Window = Library.CreateLib("FalixWare Hub", "Sentinel")
+
+OrionLib:MakeNotification({
+	Name = "Welcome!",
+	Content = "Welcome To FalixHub",
+	Image = "rbxassetid://4483345998",
+	Time = 15
+})
+
 local falixware = Window:NewTab("Render")
 local falixsection = falixware:NewSection("Render")
 falixsection:NewButton("Watermark", "watermark for roblox", function()
