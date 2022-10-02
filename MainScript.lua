@@ -12,7 +12,7 @@ OrionLib:MakeNotification({
 local render = Window:NewTab("Render")
 local movement = Window:NewTab("Movement")
 local falixsection = render:NewSection("Render")
-local movementsection = movement:NewSection("Render")
+local movementsection = movement:NewSection("Movement")
 falixsection:NewButton("Watermark", "watermark for roblox", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DanyaHACKED/falixwaretest/main/Render/watermark.lua", true))()
 end)
