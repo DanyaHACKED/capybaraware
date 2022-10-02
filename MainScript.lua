@@ -25,7 +25,11 @@ end)
 movementsection:NewButton("Infinite Jump", "Jumpping better", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/DanyaHACKED/falixwaretest/main/Movement/infjump", true))()
 end)
+movementsection:NewSlider("Walkspeed", "Make walk better", 500, 0, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
 falixsection:NewKeybind("UI", "Keybinds UI", Enum.KeyCode.F, function()
 	Library:ToggleUI()
 end)
+
 
