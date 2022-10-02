@@ -1,10 +1,10 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = Library.CreateLib("FalixWare Hub", "Sentinel")
+local Window = Library.CreateLib("capybaraware", "Sentinel")
 
 OrionLib:MakeNotification({
 	Name = "Welcome!",
-	Content = "Welcome To FalixHub",
+	Content = "Welcome To capybaraware",
 	Image = "rbxassetid://4483345998",
 	Time = 15
 })
